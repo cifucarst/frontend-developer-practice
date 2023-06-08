@@ -186,3 +186,10 @@ input{
         justify-content: space-between;
     }
 }
+
+/* my account edited */
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
