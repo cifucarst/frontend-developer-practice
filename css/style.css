@@ -264,6 +264,53 @@ input{
     display: inline-block;
 }
 
+/* mobile menu  */
+
+.mobile-menu{
+    padding: 24px;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--text-input-field);
+    font-weight: bold;
+    /* margin-bottom: 24px; */
+}
+
+.mobile-menu ul{
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu ul:nth-child(2){
+    position: absolute;
+    top: 380px;
+}
+
+.mobile-menu ul:nth-child(3){
+    position: absolute;
+    bottom: 0;
+}
+
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile-menu ul li .email{
+    font-size: var(--sm);
+    font-weight: 100;
+}
+
+.mobile-menu .sign-out{
+    font-size: var(--sm);
+    color: var(--hospital-green);
+}
+
 @media (max-width: 640px){
     .logo{
         display: block;
