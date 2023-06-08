@@ -4,6 +4,7 @@
     --very-light-pink: #f0f5ef;
     --text-input-field: #cae0c6;
     --hospital-green: #39FF14;
+    --border: #66e94f;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -224,6 +225,44 @@ input{
     margin-bottom: 0;
 }
 
+/* desktop menu */
+
+.desktop-menu{
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 6px;   
+    padding: 20px 20px 0 20px;
+}
+
+.desktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-menu ul li{
+    text-align: end;
+    font-weight: bold;
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+}
+
+.desktop-menu ul li:last-child a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li a{
+    color: var(--text-input-field);
+    text-decoration: none;
+    font-size: var(--md);
+    margin-bottom: 20px;
+    display: inline-block;
+}
 
 @media (max-width: 640px){
     .logo{
